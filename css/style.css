@@ -60,6 +60,8 @@ main{
 section:first-of-type{
 	background-color: white;
 	margin-top: 0;	
+	padding-left: 1%;
+	padding-right: 1%;
 }
 section:first-of-type >p:first-of-type{
 	margin-top: 0;
@@ -80,4 +82,14 @@ aside{
 	width: 20%;
 	margin-left: 1%;
 	margin-right: 2%;
+}
+aside>h2{
+	background-color: rgb(238, 238, 238);
+	margin:0;
+	text-align: center;
+}
+aside>div{
+	border-bottom: solid 1px grey;
+	margin-left: 3%;
+	margin-right: 3%;
 }
